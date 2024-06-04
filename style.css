@@ -30,6 +30,7 @@ header {
 header > h1 {
     color: var(--cor-1);
     text-align: center;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.270);
     font-family: var(--fonte-titulos);
     font-size: 2em;
     font-weight: bold;
@@ -41,12 +42,18 @@ header > h1 {
 
 nav {
     background-color: var(--cor-2);
+    padding: 10px;
     display: flex;
     min-height: 30px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.370);
 }
 
-nav ul {
+nav > ul {
     display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    min-width: 300px;
+    width: 100%;
 }
 
 nav li {
@@ -57,9 +64,9 @@ nav a {
     text-decoration: none;
     font-weight: bold;
     color: var(--cor-1);
-    margin: 20px 10px;
-    
 }
+
+/*Em 300px de largura está comendo o "Fale Conosco"*/
 
 nav a:hover {
     color: var(--cor-2);
@@ -74,7 +81,61 @@ main {
     min-width: 300px;
     max-width: 1200px;
     margin: auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.420);
 }
+
+main h2 {
+    font-family: var(--fonte-titulos);
+    font-size: 2em;
+    font-weight: bold;
+    color: var(--cor-2);
+    padding: 5px 20px;
+}
+
+main h3 {
+    font-family: var(--fonte-titulos);
+    font-size: 1.4em;
+    font-weight: bold;
+    color: var(--cor-2);
+    padding: 0px 20px;
+}
+
+main p{
+    text-align: justify;
+    margin: 10px 0px;
+    text-indent: 30px;
+    font-size: 1.1em;
+    padding: 0px 20px;
+    line-height: 1.4em;
+}
+
+main img {
+    margin: 30px 0px 10px 0px;
+    width: 100%;
+}
+
+#acima_do_video {
+    margin-bottom: 40px;
+}
+
+#abaixo_do_video {
+    margin-top: 30px;
+}
+
+div.video {  /*GAMBIARRA PRA CENTRALIZAR E TORNAR O VÍDEO DO YOUTUBE RESPONSÍVEL*/
+    padding: 20px;
+    padding-bottom: 55%;
+    position: relative;
+}
+
+div.video > iframe {  /*CONTINUAÇÃO DA GAMBIARRA*/
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
 footer {
     background-color: var(--cor-2);
     color: var(--cor-1);
