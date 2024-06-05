@@ -5,7 +5,6 @@
 :root {
     --cor-1: #4C1F38;
     --cor-2: #1F0A19;
-    --cor-3: #5B9E9E;
 
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
     --fonte-titulos: font-family: "Karla", sans-serif;
@@ -66,8 +65,6 @@ nav a {
     color: var(--cor-1);
 }
 
-/*Em 300px de largura está comendo o "Fale Conosco"*/
-
 nav a:hover {
     color: var(--cor-2);
     background-color: var(--cor-1);
@@ -100,7 +97,7 @@ main h3 {
     font-weight: bold;
     color: var(--cor-2);
     padding: 0px 20px;
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.270);
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.121);
 }
 
 main p{
