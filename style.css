@@ -91,6 +91,7 @@ main h2 {
     font-weight: bold;
     color: var(--cor-2);
     padding: 5px 20px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.270);
 }
 
 main h3 {
@@ -99,6 +100,7 @@ main h3 {
     font-weight: bold;
     color: var(--cor-2);
     padding: 0px 20px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.270);
 }
 
 main p{
@@ -144,6 +146,7 @@ section > h2 {
     text-align: center;
     font-size: 2.5em;
     border-radius: 15px 15px 0px 0px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.270);
 }
 
 div.pai {
@@ -178,7 +181,6 @@ div.imagem  img {
     width: 100%;
     height: 100%;
     border-radius: 15px;
-    
 }
 
 h3.subtitulo_pricipais_tipos {
@@ -188,6 +190,7 @@ h3.subtitulo_pricipais_tipos {
     font-weight: bold;
     color: var(--cor-2);
     background-color: var(--cor-1);
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.270);
 }
 
 p.paragrafo_principais_tipos {
@@ -217,6 +220,26 @@ footer > h1 {
     min-width: 300px;
     max-width: 700px;
     margin: auto;
-    padding-top: 10px;
+    margin-bottom: 30px;
+    padding: 30px 0px 0px 0px;
+    border-bottom: 3px solid var(--cor-1);
 }
 
+footer > ul {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    min-width: 300px;
+    width: 100%;
+    justify-content: center;
+}
+
+
+footer li {
+    list-style: none;
+}
+
+a img {
+    height: 30px;
+    width: 30px;
+}
